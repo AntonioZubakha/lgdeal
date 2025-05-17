@@ -1,0 +1,16 @@
+{
+  "url": "https://drc.api.dharmatech.in/v1/all-stock",
+  "requestType": "get",
+  "headers": {
+    "Authorization": "QVviu5WJNEU"
+  },
+  "params": {},
+  "dataKey": "data",
+  "filter": {
+    "is_lab_grown": true,
+    "is_active": true
+  },
+  "syncSchedule": {
+    "frequency": "hourly"
+  }
+} 
